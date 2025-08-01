@@ -1,40 +1,16 @@
----
+# Apress Source Code
 
-##### Github name: genai-bedrock-book-samples
-##### Book Name: A Definitive Guide to Generative AI with Amazon Bedrock
+This repository accompanies [*A Practical Guide to Generative AI Using Amazon Bedrock*](https://www.link.springer.com/book/10.1007/979-8-8688-1414-3) by Avik Bhattacharjee (Apress, 2025).
 
----
+[comment]: #cover
+![Cover image](979-8-8688-1416-7.jpg)
 
----
+Download the files as a zip using the green button, or clone the repository to your machine using Git.
 
-<ins>cloudformation folder</ins>: AWS Cloud Formation Template
-Purpose : Provisioning resources in your own AWS account for **A Definitive Guide to Generative AI with Amazon Bedrock** book code hands on. This is a one time activity to execute the AWS CloudFormation template. Make sure to **Delete** the **Stack** if you are not using. Follow **Clean Up** section. 
+## Releases
 
----
+Release v1.0 corresponds to the code in the published book, without corrections or updates.
 
----
+## Contributions
 
-<ins>other folders</ins>: Python code bases
-
-Purpose : It is recommended to read the **README** file in each chapter folder.
-
----
-
-
-
-## Prerequisite
-
-### AWS region for implementation Amazon SageMaker domain 
-
-us-east-1 
-
-### Account allowlisting
-To run this source code, your account must be included on the Amazon Bedrock allowlist. Please ensure that your account is activated and allowlisted before executing this source code.
-
-> [!CAUTION]
-> If you are running this in your own account, please be aware that costs may be incurred. The exact expenses depend on factors such as the frequency of your calls to Bedrock, the length of tokens or the size of images in your calls, and the specific models you utilize. For detailed pricing information for each model, please refer to the Amazon Bedrock console. Even, you will get specific note before every exercises. 
-
-
-## Clean up
-
-If you dont want to continue with this hands on exercise further, Please follow the **Delete** the AWS CloudFormation stack to avoid incurring future charges and to clean up unused roles and policies, delete the resources you created as part of the execution of the AWS CloudFormation stack. 
+See the file Contributing.md for more information on how you can contribute to this repository.
